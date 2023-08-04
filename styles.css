@@ -1,0 +1,77 @@
+/* Стили для страницы */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f6fc;
+}
+
+header {
+  background-color: #0e72ba;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #0e72ba;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.destination {
+  margin-bottom: 40px;
+}
+
+.destination img {
+  width: 100%;
+  max-height: 400px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0e72ba;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #095a90;
+}
+
+footer {
+  background-color: #0e72ba;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
